@@ -1,0 +1,15 @@
+{
+    "name": "hexlet/code",
+    "description": "A description of your project goes here.",
+    "authors": [
+        {
+            "name": "beherit197777",
+            "email": "beherit197777@gmail.com"
+        }
+    ],
+    "require": {},
+    "bin": [
+        "bin/brain-games"
+    ],
+    "license": "proprietary"
+}
