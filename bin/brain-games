@@ -1,2 +1,13 @@
+#!/usr/bin/env php
 <?php
-echo "Welcome to the Brain Games!\n";
+
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use BrainGames\Cli\Cli;
+
+// Создаем экземпляр класса Cli
+$cli = new Cli();
+
+// Вызываем метод приветствия
+$cli->greetUser();
+
