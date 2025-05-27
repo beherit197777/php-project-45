@@ -1,13 +1,9 @@
 #!/usr/bin/env php
+
 <?php
 
-require_once __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . "/../vendor/autoload.php";
 
-use BrainGames\Cli\Cli;
+use function BrainGames\Cli\gameStart;
 
-// Создаем экземпляр класса Cli
-$cli = new Cli();
-
-// Вызываем метод приветствия
-$cli->greetUser();
-
+gameStart();
