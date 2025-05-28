@@ -19,7 +19,8 @@
             "BrainGames\\": "src/"
         },
         "files": [
-            "src/Cli.php"
+            "src/Cli.php",
+            "src/Games/Even.php"
         ]
     },
     "require-dev": {
