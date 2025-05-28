@@ -14,7 +14,8 @@
         "bin/brain-games",
         "bin/brain-even",
         "bin/brain-calc",
-        "bin/brain-gcd"
+        "bin/brain-gcd",
+        "bin/brain-progression"
     ],
     "license": "proprietary",
     "autoload": {
@@ -26,7 +27,9 @@
             "src/Engine.php",
             "src/Games/Even.php",
             "src/Games/Calc.php",
-            "src/Games/Gcd.php"
+            "src/Games/Gcd.php",
+            "src/Games/Progression.php"
+
         ]
     },
     "require-dev": {
