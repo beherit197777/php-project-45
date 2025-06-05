@@ -7,7 +7,7 @@
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=beherit197777_php-project-45&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=beherit197777_php-project-45)
 [![Duplicated Lines](https://sonarcloud.io/api/project_badges/measure?project=beherit197777_php-project-45&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=beherit197777_php-project-45)
 
-«## Описание
+Описание
 
 **«Игры разума»** — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга.  
 Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трёх правильных ответов считается, что игра пройдена.  
