@@ -32,4 +32,3 @@ function primeGame(): void
 
     runGame($rule, $questionsAndAnswers);
 }
-

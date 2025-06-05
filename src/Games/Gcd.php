@@ -28,4 +28,3 @@ function gcdGame(): void
 
     runGame($rule, $questionsAndAnswers);
 }
-

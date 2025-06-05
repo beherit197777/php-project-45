@@ -27,4 +27,3 @@ function runGame(string $rule, array $questionsAndAnswers): void
     }
     line('Congratulations, %s!', $name);
 }
-

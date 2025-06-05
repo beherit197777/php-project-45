@@ -32,4 +32,3 @@ function progressionGame(): void
 
     runGame($rule, $questionsAndAnswers);
 }
-
