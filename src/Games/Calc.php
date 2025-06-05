@@ -14,8 +14,8 @@ function runCalcGame(): void
     $operators = ['+', '-', '*'];
 
     for ($i = 0; $i < ROUNDS_COUNT; $i++) {
-        $number1 = rand(1, 20);
-        $number2 = rand(1, 20);
+        $number1 = random_int(1, 20);
+        $number2 = random_int(1, 20);
         $operator = $operators[array_rand($operators)];
 
         // Вычисляем правильный ответ
