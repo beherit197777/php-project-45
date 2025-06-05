@@ -3,7 +3,6 @@
 namespace BrainGames\Games;
 
 use function BrainGames\Engine\runGame;
-
 use const BrainGames\Engine\ROUNDS_COUNT;
 
 function progressionGame(): void
@@ -33,3 +32,4 @@ function progressionGame(): void
 
     runGame($rule, $questionsAndAnswers);
 }
+

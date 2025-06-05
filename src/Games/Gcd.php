@@ -3,7 +3,6 @@
 namespace BrainGames\Games;
 
 use function BrainGames\Engine\runGame;
-
 use const BrainGames\Engine\ROUNDS_COUNT;
 
 function getGcd(int $a, int $b): int
@@ -29,3 +28,4 @@ function gcdGame(): void
 
     runGame($rule, $questionsAndAnswers);
 }
+

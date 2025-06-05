@@ -12,3 +12,4 @@ function gameStart(): string
     line("Hello, %s!", $name);
     return $name;
 }
+

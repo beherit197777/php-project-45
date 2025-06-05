@@ -3,7 +3,6 @@
 namespace BrainGames\Games;
 
 use function BrainGames\Engine\runGame;
-
 use const BrainGames\Engine\ROUNDS_COUNT;
 
 // Проверка, является ли число простым
@@ -33,3 +32,4 @@ function primeGame(): void
 
     runGame($rule, $questionsAndAnswers);
 }
+

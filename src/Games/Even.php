@@ -19,3 +19,4 @@ function runEvenGame(): void
     runGame($rule, $questionsAndAnswers);
 }
 
+
