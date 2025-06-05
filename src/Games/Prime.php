@@ -2,7 +2,9 @@
 
 namespace BrainGames\Games;
 
-use function BrainGames\runGame;
+use function BrainGames\Engine\runGame;
+
+use const BrainGames\Engine\ROUNDS_COUNT;
 
 // Проверка, является ли число простым
 function isPrime(int $num): bool

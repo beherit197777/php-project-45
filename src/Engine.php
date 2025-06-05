@@ -1,14 +1,12 @@
 <?php
 
-namespace BrainGames;
+namespace BrainGames\Engine;
+
+const ROUNDS_COUNT = 3;
 
 use function cli\line;
 use function cli\prompt;
 
-/**
- * $rule — строка с правилами
- * $questionsAndAnswers — массив [["вопрос", "ответ"], ...]
- */
 function runGame(string $rule, array $questionsAndAnswers): void
 {
     line('Welcome to the Brain Games!');
@@ -20,7 +18,7 @@ function runGame(string $rule, array $questionsAndAnswers): void
         line("Question: %s", $question);
         $userAnswer = prompt('Your answer');
 
-        if ((string)$userAnswer !== (string)$correctAnswer) {
+        if ($userAnswer !== $correctAnswer) {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $userAnswer, $correctAnswer);
             line("Let's try again, %s!", $name);
             return;
