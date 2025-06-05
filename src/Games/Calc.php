@@ -11,7 +11,7 @@ function runEvenGame(): void
     $rule = 'Answer "yes" if the number is even, otherwise answer "no".';
     $questionsAndAnswers = [];
 
-    for ($i = 0; $i < 3; $i++) {
+    for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $number = rand(1, 100);
         $correctAnswer = $number % 2 === 0 ? 'yes' : 'no';
         $questionsAndAnswers[] = [$number, $correctAnswer];

@@ -23,10 +23,9 @@ function isPrime(int $num): bool
 function primeGame(): void
 {
     $rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-    $roundsCount = 3;
     $questionsAndAnswers = [];
 
-    for ($i = 0; $i < $roundsCount; $i++) {
+    for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $number = rand(2, 100);
         $correctAnswer = isPrime($number) ? 'yes' : 'no';
         $questionsAndAnswers[] = [$number, $correctAnswer];

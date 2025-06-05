@@ -9,10 +9,9 @@ use const BrainGames\Engine\ROUNDS_COUNT;
 function progressionGame(): void
 {
     $rule = 'What number is missing in the progression?';
-    $roundsCount = 3;
     $questionsAndAnswers = [];
 
-    for ($i = 0; $i < $roundsCount; $i++) {
+    for ($i = 0; $i < ROUNDS_COUNT; $i++) {
         $length = rand(5, 10);
         $start = rand(1, 50);
         $step = rand(2, 10);
